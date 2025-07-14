@@ -1,10 +1,10 @@
-FROM langgenius/dify-api:1.5.1
-FROM langgenius/dify-api:1.5.1
-FROM langgenius/dify-web:1.5.1
+FROM langgenius/dify-api:1.6.0
+FROM langgenius/dify-api:1.6.0
+FROM langgenius/dify-web:1.6.0
 FROM postgres:15-alpine
 FROM redis:6-alpine
 FROM langgenius/dify-sandbox:0.2.12
-FROM langgenius/dify-plugin-daemon:0.1.2-local
+FROM langgenius/dify-plugin-daemon:0.1.3-local
 FROM ubuntu/squid:latest
 FROM certbot/certbot
 FROM nginx:latest
